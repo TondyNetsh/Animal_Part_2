@@ -19,6 +19,7 @@ public class AnimalTests {
     }
     @Test
     public void TestCatEats(){
+
         Assert.assertEquals(cat.eats(), "Food");
     }
 }
